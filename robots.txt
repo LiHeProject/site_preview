@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://preview.voidd.net/sitemap.xml
