@@ -1,4 +1,4 @@
-import{_ as o,c as n,a as r,b as e,o as i}from"./app-D4cUsxnO.js";const a={};function m(c,t){return i(),n("div",null,[r(`
+import{_ as o,c as n,a as r,b as e,o as i}from"./app-CkqkcEB8.js";const a={};function m(c,t){return i(),n("div",null,[r(`
 这是一个博客主页的案例。
 
 要使用此布局，你应该在页面前端设置 \`layout: BlogHome\` 和 \`home: true\`。
