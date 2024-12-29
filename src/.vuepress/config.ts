@@ -1,7 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import { getDirname,path } from "vuepress/utils"
-import { zhChangedLocale } from "./locales/zh_Changed.js";
-
+import { cachePlugin } from '@vuepress/plugin-cache'
 import theme from "./theme.js";
 
 const __dirname = getDirname(import.meta.url)
@@ -21,8 +20,16 @@ export default defineUserConfig({
       __dirname,
       "./components/TimelineList.vue"
     ),
-  }
-  //plugins: [PlugClient]
+    "@theme-hope/modules/info/components/PageViewInfo": path.resolve(
+      __dirname,
+      "./components/Empty.vue"
+    )
+  },
+  plugins: [
+    cachePlugin({
+      type: "filesystem"
+    }),
+  ]
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,

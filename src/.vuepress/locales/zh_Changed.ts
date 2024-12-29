@@ -78,7 +78,7 @@ export const zhChangedLocale: _ThemeLocaleData = {
             "你该想想，是否是故意的？还是输错了？",
             "404！！！",
             "我不好",
-            "那又怎样？这里还是什么都没有！"
+            "那又怎样？这里...还是什么都没有。"
         ],
         back: "返回上一页",
         home: "回到主页",
