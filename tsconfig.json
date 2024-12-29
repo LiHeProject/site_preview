@@ -7,7 +7,7 @@
   "include": [
     "src/.vuepress/**/*.ts",
     "src/.vuepress/**/*.vue"
-, "src/layouts/Timeline.vue"  ],
+  ],
   "exclude": [
     "node_modules"
   ]

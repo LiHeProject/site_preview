@@ -42,6 +42,7 @@ export default hopeTheme({
   blog: {
     description: "离合计划是一个由TianriStudio及其下的虚空D网络创建的原创世界观企划，目前由小说和游戏组成，纵然它们尚未完成",
     intro: "/intro.html",
+    avatar:"/assets/images/logo.png",
     medias: {
       //Baidu: "https://example.com",
       BiliBili: "https://space.bilibili.com/1053717578",
@@ -179,14 +180,7 @@ export default hopeTheme({
       repo: "tianriw/lihe_giscus_repo",
       repoId: "R_kgDONgnYNA",
       category: "General",
-      categoryId: "DIC_kwDONgnYNM4Claxk"
-      // provider: "Artalk",
-      // locale: "zh-CN",
-      // server: "http://comment.voidd.net:8080",
-      // site: "LiHeProject Comment System",
-      // placeholder: "也许，这里该放些什么...试着写下些友好的文字，这对谁都好",
-      // noComment: "也许，是你来的太早了，人们还没从他们的美梦中醒来。",
-      // sendBtn: " 推送到「评论区」"
+      categoryId: "DIC_kwDONgnYNM4Claxk",
     },
 
     components: {
