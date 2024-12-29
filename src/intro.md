@@ -79,5 +79,3 @@ LiHe Project——原创世界观企划，类型：末世，无限，Furry！以
 米新提议让我在这里放上爱发电链接，所以我们的爱发电链接是：
 
 [这是爱发电链接https://afdian.com/a/liheproject](https://afdian.com/a/liheproject)
-
-暂时还没认证，等我们做出点成绩再说。
