@@ -1,9 +1,6 @@
 ---
-title: 简介
-article: false
-tag: [离合计划,连载中]
+title: 《末世：平凡的转折点，兽化》
 author: [Tianri(alias:TianriW),米新极限]
-category: [离合计划,小说]
 ---
 
 ## 末世：平凡的转折点，兽化

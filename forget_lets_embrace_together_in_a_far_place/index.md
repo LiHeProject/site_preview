@@ -1,5 +1,5 @@
 ---
-title: 简介
+title: 《遗忘：让我们互相拥抱，在这遥远之地》
 article: false
 tag: [离合计划,连载中]
 author: [Tianri(alias:TianriW),米新极限]
