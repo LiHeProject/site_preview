@@ -16,7 +16,7 @@ giscusTalk({
     repoId: "R_kgDONgnYNA",
     category: "General",
     categoryId: "DIC_kwDONgnYNM4Claxk",
-    mapping: "path",
+    mapping: "pathname",
     inputPosition: "top",
     lang: "zh-CN",
     lightTheme: "light",
@@ -28,15 +28,15 @@ giscusTalk({
 <template>
     <NNotificationProvider>
         <Layout>
-            <template #doc-top>
+            <template #doc-before>
                 <NCard title="我们需要你的帮助">
-                    为我们发一条评论、加入我们的QQ群聊/论坛、为我们发电，让Tianri和米新极限知道他们不是一意孤行
+                    为我们发一条评论或加入我们的QQ群聊/论坛亦或是为我们发电，让Tianri和米新极限知道他们不是一意孤行。
                 </NCard>
             </template>
             <template #doc-footer-before>
                 <div class="giscus" id="giscus"></div>
             </template>
-        </Layout>
+           </Layout>
         <Broadcast />
         
     </NNotificationProvider>

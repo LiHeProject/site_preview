@@ -18,7 +18,7 @@ if(new Date().getFullYear() == 2025 && !new_year_broadcast) {
 }
 notification.create({
         title: "对了！",
-        content: "我们的论坛也举行了新年活动，现在注册/登录并签到1天即可取得徽章「灾变见证者」，结束时间1月5日，活动期间签到、发送内容等获得的LCoin增加"
+        content: "我们的论坛也举行了新年活动，现在注册/登录并签到1天即可取得徽章「灾变见证者」，结束时间1月结束，活动期间签到、发送内容等获得的LCoin增加"
 })
 
 </script>

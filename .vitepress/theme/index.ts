@@ -1,10 +1,10 @@
 import { defineComponent, h, inject } from 'vue'
-import { Theme,useRoute } from 'vitepress'
+import { Theme,useData,useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import Layout from '../layouts/Layout.vue'
 import { setup } from '@css-render/vue3-ssr'
-import { NConfigProvider } from 'naive-ui'
+import { darkTheme, NConfigProvider } from 'naive-ui'
 
 const CssRenderStyle = defineComponent({
   setup() {
@@ -33,7 +33,7 @@ const NaiveUIProvider = defineComponent({
   render() {
     return h(
       NConfigProvider,
-      { abstract: true, inlineThemeDisabled: true },
+      { abstract: true, inlineThemeDisabled: true,theme: useData().isDark.value ? darkTheme : null },
       {
         default: () => [
           h(Layout, null, { default: this.$slots.default?.() }),
