@@ -30,13 +30,13 @@ giscusTalk({
         <Layout>
             <template #doc-before>
                 <NCard title="我们需要你的帮助">
-                    为我们发一条评论或加入我们的QQ群聊/论坛亦或是为我们发电，让Tianri和米新极限知道他们不是一意孤行。
+                    请为我们留下评论或加入我们的官方QQ群/论坛，如可以和愿意，你也可以为我们发电或加入我们。这会使本企划变得更好（例如角色拥有立绘，游戏开发速度加快，质量提高）
                 </NCard>
             </template>
             <template #doc-footer-before>
                 <div class="giscus" id="giscus"></div>
             </template>
-           </Layout>
+        </Layout>
         <Broadcast />
         
     </NNotificationProvider>

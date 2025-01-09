@@ -3,18 +3,15 @@ import { useNotification } from 'naive-ui';
 
 const notification = useNotification()
 
-let new_year_broadcast = false
-
 notification.create({
-    title: "公开预览测试",
+    title: "注意：本作品处于公开预览测试阶段",
     content: "内容可能会在任何时刻被更改"
 })
-if(new Date().getFullYear() == 2025 && !new_year_broadcast) {
+if(new Date().getFullYear() == 2025) {
     notification.create({
         title: "新年快乐！",
-        content: "Tianri和米新极限祝福你们，2025年一切顺心，万事如意，新年快乐！"
+        content: "Tianri和米新极限祝福所有“观测者”们新年快乐！"
     })
-    new_year_broadcast = true
 }
 notification.create({
         title: "对了！",
