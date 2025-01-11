@@ -20,6 +20,12 @@ features:
   - title: 《末世：平凡的转折点，兽化》
     details: 是末世还是非自然演化？我不知道。
     link: /evolution_common_turning_point_transfur/
+  - title: 《故我锚定时》
+    details: 被锚定的人生，定会有脱离的那天。Part1春，进行中
+    link: /the_old_me_was_the_moment_of_anchoring/
+  - title: 《公正的爱》
+    details: 不公正的人生和公正的爱，人兽之间的爱情真的会有结果吗？
+    link: /LoveIsFair/
   - title: 《米新杂记》
     details: 米新极限所写，有一些插语和想法。
     link: /mixinlimit/
