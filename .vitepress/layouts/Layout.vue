@@ -17,6 +17,7 @@ giscusTalk({
     category: "General",
     categoryId: "DIC_kwDONgnYNM4Claxk",
     mapping: "url",
+    strict: "1",
     inputPosition: "top",
     lang: "zh-CN",
     lightTheme: "light",
