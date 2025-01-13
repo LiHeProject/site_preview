@@ -16,7 +16,7 @@ giscusTalk({
     repoId: "R_kgDONgnYNA",
     category: "General",
     categoryId: "DIC_kwDONgnYNM4Claxk",
-    mapping: "pathname",
+    mapping: "url",
     inputPosition: "top",
     lang: "zh-CN",
     lightTheme: "light",
