@@ -28,7 +28,7 @@ export default defineConfig({
         collapsed: true,
         sortFolderTo: "top",
         sortMenusByFrontmatterOrder: true,
-        excludePattern: ["README.md","intro.md"]
+        excludePattern: ["README.md","intro.md","special.md"]
     }),
 
     socialLinks: [

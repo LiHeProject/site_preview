@@ -37,6 +37,11 @@ giscusTalk({
             <template #doc-footer-before>
                 <div class="giscus" id="giscus"></div>
             </template>
+            <template #doc-footer-after>
+                <NCard title="给我们打个广告">
+                    Tianri和米新极限接无偿搭建网站，只要给本企划宣传就行...复杂的工期比较长...我们只是低等程序员
+                </NCard>
+            </template>
         </Layout>
         <Broadcast />
         
