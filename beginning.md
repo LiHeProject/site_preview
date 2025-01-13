@@ -1,6 +1,6 @@
 ---
 title: 开始吧！
-order: 0
+order: -2
 author: [Tianri]
 ---
 

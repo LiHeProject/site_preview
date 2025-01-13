@@ -5,6 +5,7 @@ import './style.css'
 import Layout from '../layouts/Layout.vue'
 import { setup } from '@css-render/vue3-ssr'
 import { darkTheme, NConfigProvider } from 'naive-ui'
+import NovelWall from "../components/NovelWall.vue"
 
 const CssRenderStyle = defineComponent({
   setup() {
@@ -56,5 +57,6 @@ export default {
       const { collect } = setup(app)
       app.provide('css-render-collect', collect)
     }
+    app.component("NovelWall",NovelWall)
   }
 } satisfies Theme
